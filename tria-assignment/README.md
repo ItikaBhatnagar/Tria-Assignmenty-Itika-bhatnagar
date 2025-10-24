@@ -2,50 +2,50 @@
 
 A modern, responsive contact management application built with React, TypeScript, and Tailwind CSS. This project demonstrates advanced frontend development practices, state management, and exceptional user experience.
 
-## ✨ Live Demo
+##  Live Demo
 
 [View Live Demo](https://contact-list-chi-hazel.vercel.app/)
 
-## 🎯 Key Features
+##  Key Features
 
-### 📋 Contact Management
-- ➕ Add new contacts with smart form validation
+###  Contact Management
+-  Add new contacts with smart form validation
   - Real-time duplicate detection for name, email, and phone
   - Automatic avatar generation based on names
   - Custom error handling and feedback
-- ✏️ Edit existing contacts with live validation
+-  Edit existing contacts with live validation
   - Click-to-call phone numbers
   - Click-to-email functionality
-- 🗑️ Delete contacts with confirmation dialog
-- 💾 Persistent storage with automatic saving
+-  Delete contacts with confirmation dialog
+-  Persistent storage with automatic saving
 
-### 🔍 Smart Search & Organization
-- 🎯 Intelligent search across name, email, or phone
+###  Smart Search & Organization
+-  Intelligent search across name, email, or phone
   - Switch search type on the fly
   - Case and space-insensitive matching
   - Debounced search for performance
-- 📱 Smart phone number search
+-  Smart phone number search
   - Matches any format: `+1 (234) 567-8900`, `1234567890`
   - Ignores spaces, dashes, and parentheses
-- ⭐ Favorites system with quick filtering
-- ⬆️ Sort contacts alphabetically (A-Z/Z-A)
+-  Favorites system with quick filtering
+-  Sort contacts alphabetically (A-Z/Z-A)
 
-### 🎨 Modern UI/UX
-- 🌓 Dark/Light theme with system preference detection
-- 📱 Responsive design optimized for:
+###  Modern UI/UX
+-  Dark/Light theme with system preference detection
+-  Responsive design optimized for:
   - Mobile devices (stacked layout)
   - Tablets (2-column grid)
   - Desktop (3-column grid)
-- 💫 Polished interactions
+-  Polished interactions
   - Loading skeletons during data fetch
   - Smooth transitions and animations
   - Hover effects and visual feedback
-- 📝 Contextual empty states
+-  Contextual empty states
   - Empty contact list guidance
   - No search results messaging
   - No favorites indication
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: React 18 with TypeScript
 - **Styling**: Tailwind CSS with dark mode support
@@ -54,7 +54,7 @@ A modern, responsive contact management application built with React, TypeScript
 - **Build**: Vite for optimal development experience
 - **Performance**: Debounced search, optimized re-renders
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -75,7 +75,7 @@ A modern, responsive contact management application built with React, TypeScript
 
 Visit `http://localhost:5173` to view the application.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -87,7 +87,7 @@ src/
 └── main.tsx       # Entry point
 ```
 
-## 🎨 Design Choices
+##  Design Choices
 
 ### UI/UX Focus
 - Clean, minimalist design prioritizing readability
@@ -103,7 +103,7 @@ src/
 - Optimized search with normalization
 - Smart form validation and error handling
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - [ ] Contact groups/categories for better organization
 - [ ] Cloud sync and backup functionality
